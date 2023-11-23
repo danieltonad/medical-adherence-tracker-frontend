@@ -15,3 +15,9 @@ export type CreateAccountPayload = {
     Male = 'Male',
     Female = 'Female',
   };
+
+
+  export type LoginUserPayload = {
+    email_or_phone: string;
+    password: string
+  }
